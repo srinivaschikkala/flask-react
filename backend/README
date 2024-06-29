@@ -1,0 +1,27 @@
+# Employee API
+
+1. **Requirements:
+    - Create venv and install required packages
+      '''
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+
+      '''
+
+2. **Database Setup:
+    - Create the database and tables:
+    - Setup the db connection
+
+
+3. **Configure and Run:
+    - Update `get_db_connection` in `app.py` with your MySQL credentials and start the app:
+      ```bash
+      python app.py
+      ```
+
+4. **Access the API:
+    - Fetch employee data at `http://127.0.0.1:5000/api/employees` using a browser or `curl`:
+      ```bash
+      curl http://127.0.0.1:5000/api/employees
+      ```
